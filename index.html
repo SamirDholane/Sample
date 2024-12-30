@@ -6,20 +6,19 @@
     <title>Light On/Off</title>
   </head>
   <body>
-    <p id="demo" style="display: none">Hello JavaScript!</p>
-    <button
-      type="button"
-      onclick="document.getElementById('demo').style.display='block'"
-    > 
-      Click to Show
-    </button>
+
+    <p id="demo1"></p>
+
 
     <img id="lightoff" src="pic_bulboff.gif" />
-    <button onclick="document.getElementById('lightoff').src='pic_bulbon.gif'">
-      Light On
-    </button>
-    <button onclick="document.getElementById('lightoff').src='pic_bulboff.gif'">
-      Light Off
-    </button>
+    <button onclick="myfunction()">Light On</button>
+    <button onclick="myfunction2()">Light Off</button>
+
+
+    <button type="button" onclick="myfunction3()">Click to Show</button>
+
+    <p id="demo" style="display: none">Hello JavaScript!</p>
+  
+    <script src="index.js"></script>
   </body>
 </html>
