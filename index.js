@@ -1,6 +1,6 @@
 document.getElementById("demo1").innerHTML = "Hello World";
 
-function myfunction() {
+function myfunction1() {
   document.getElementById("lightoff").src = "pic_bulbon.gif";
 }
 
