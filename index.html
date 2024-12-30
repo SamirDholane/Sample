@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Light On/Off</title>
+  </head>
+  <body>
+    <p id="demo" style="display: none">Hello JavaScript!</p>
+    <button
+      type="button"
+      onclick="document.getElementById('demo').style.display='block'"
+    > 
+      Click to Show
+    </button>
+
+    <img id="lightoff" src="pic_bulboff.gif" />
+    <button onclick="document.getElementById('lightoff').src='pic_bulbon.gif'">
+      Light On
+    </button>
+    <button onclick="document.getElementById('lightoff').src='pic_bulboff.gif'">
+      Light Off
+    </button>
+  </body>
+</html>
